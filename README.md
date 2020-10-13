@@ -5,6 +5,7 @@ Overview
 ## Description
 ### Spring Boot Graceful Shutdown
 - server.shutdown
+- spring.lifecycle.timeout-per-shutdown-phase
 
 ## Demo
 
