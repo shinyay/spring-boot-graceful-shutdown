@@ -12,5 +12,5 @@ fun main(args: Array<String>) {
 	runApplication<GracefulShutdownApplication>(*args)
 }
 
-val Any.logging: Logger
+val Any.logger: Logger
 	get() = LoggerFactory.getLogger(this.javaClass)
