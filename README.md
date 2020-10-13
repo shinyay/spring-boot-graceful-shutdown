@@ -6,8 +6,10 @@ Overview
 ### Spring Boot Graceful Shutdown
 - [Graceful shutdown](https://docs.spring.io/spring-boot/docs/2.3.0.RELEASE/reference/html/spring-boot-features.html#boot-features-graceful-shutdown)
 
-- server.shutdown
-- spring.lifecycle.timeout-per-shutdown-phase
+|Property|Value|
+|--------|-----|
+|server.shutdown|graceful<br>immediate|
+|spring.lifecycle.timeout-per-shutdown-phase|timeout period (second)|
 
 ## Demo
 
