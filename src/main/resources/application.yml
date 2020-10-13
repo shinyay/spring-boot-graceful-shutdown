@@ -1,1 +1,5 @@
-
+spring:
+  application:
+    name: graceful-shutdown
+server:
+  shutdown: graceful
