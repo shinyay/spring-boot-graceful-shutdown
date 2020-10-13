@@ -1,5 +1,7 @@
 spring:
   application:
     name: graceful-shutdown
+  lifecycle:
+    timeout-per-shutdown-phase: 10s
 server:
   shutdown: graceful
